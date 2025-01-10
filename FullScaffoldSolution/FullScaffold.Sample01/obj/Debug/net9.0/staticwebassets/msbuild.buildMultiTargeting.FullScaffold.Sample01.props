@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FullScaffold.Sample01.props" />
+</Project>
