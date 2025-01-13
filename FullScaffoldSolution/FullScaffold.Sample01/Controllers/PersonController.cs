@@ -41,15 +41,22 @@ namespace FullScaffold.Sample01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Firstname,Lastname")] Person person)
         {
-            await _personRepository.Insert(person);
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid) {   
+                await _personRepository.Insert(person);
+                return RedirectToAction(nameof(Index));
+            }
+             return View(person);
         }
         #endregion
 
         #region [- Edit -]
-        public IActionResult Edit(Person person)
+        public IActionResult Edit(Guid id)
         {
-            return View(person);
+            if (id == null)
+            {
+                return NotFound();
+            }
+            return View();
         }
         #endregion
 
@@ -58,8 +65,11 @@ namespace FullScaffold.Sample01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Guid id, [Bind("Id,Firstname,Lastname")] Person person)
         {
+            if (ModelState.IsValid) {   
             await _personRepository.Update(person);
             return RedirectToAction(nameof(Index));
+            }
+            return View(person);
         }
         #endregion
 
@@ -75,6 +85,11 @@ namespace FullScaffold.Sample01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id, [Bind("Id,Firstname,Lastname")] Person person)
         {
+
+            if (id == null)
+            {
+                return NotFound();
+            }
             await _personRepository.Delete(person);
             return RedirectToAction(nameof(Index));
         }
