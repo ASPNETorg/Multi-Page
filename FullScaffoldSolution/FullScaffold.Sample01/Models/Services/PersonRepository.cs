@@ -40,7 +40,7 @@ namespace S08.Fullscaffold.samlple02.Models.Services
 		#endregion
 
 		#region [- SelectById() -]
-		public async Task<Person> Select(Guid id)
+		public async Task<Person> Select(Guid? id)
 		{
 			using (_dbContext)
 			{

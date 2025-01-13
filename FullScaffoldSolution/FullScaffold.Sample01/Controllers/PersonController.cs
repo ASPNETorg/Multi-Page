@@ -50,7 +50,7 @@ namespace FullScaffold.Sample01.Controllers
         #endregion
 
         #region [- Edit -]
-        public IActionResult Edit(Guid id)
+        public IActionResult Edit(Guid? id)
         {
             if (id == null)
             {
@@ -74,22 +74,22 @@ namespace FullScaffold.Sample01.Controllers
         #endregion
 
         #region [- Delete -]
-        public IActionResult Delete(Person person)
+        public async Task<IActionResult> Delete(Guid? id)
         {
-            return View(person);
+             if (id == null)
+             {
+                return NotFound();
+             }
+            Person p = await _personRepository.Select(id);
+            return View(p);
         }
         #endregion
 
         #region [- Delete Post -]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(Guid id, [Bind("Id,Firstname,Lastname")] Person person)
+        public async Task<IActionResult> DeleteConfirmed(Person person)
         {
-
-            if (id == null)
-            {
-                return NotFound();
-            }
             await _personRepository.Delete(person);
             return RedirectToAction(nameof(Index));
         }

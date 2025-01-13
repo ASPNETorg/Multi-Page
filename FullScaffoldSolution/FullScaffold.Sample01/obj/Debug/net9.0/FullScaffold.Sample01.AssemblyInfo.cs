@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullScaffold.Sample01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27e992dc5f3e2355a074eef099f071591bf20846")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f49e9ab22d592704723cbaca7f49e5e38d57b985")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullScaffold.Sample01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullScaffold.Sample01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
