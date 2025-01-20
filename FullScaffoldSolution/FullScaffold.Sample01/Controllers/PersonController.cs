@@ -25,6 +25,10 @@ namespace FullScaffold.Sample01.Controllers
         #region [- Details -]
         public async Task<IActionResult> Details(Guid id)
         {
+            if (id == null)
+            {
+                return NotFound();  
+            }
             return View(await _personRepository.Select(id));
         }
         #endregion
@@ -90,8 +94,12 @@ namespace FullScaffold.Sample01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Person person)
         {
-            await _personRepository.Delete(person);
-            return RedirectToAction(nameof(Index));
+            if ((ModelState.IsValid))
+            {
+                await _personRepository.Delete(person);
+                return RedirectToAction(nameof(Index));
+            }
+              return View(person);
         }
         #endregion
 

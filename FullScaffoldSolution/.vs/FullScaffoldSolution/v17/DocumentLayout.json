@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|solutionrelative:fullscaffold.sample01\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|c:\\users\\pc\\source\\repos\\multi-page\\fullscaffoldsolution\\fullscaffold.sample01\\models\\frameworks\\contracts\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|solutionrelative:fullscaffold.sample01\\models\\frameworks\\contracts\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|c:\\users\\pc\\source\\repos\\multi-page\\fullscaffoldsolution\\fullscaffold.sample01\\models\\services\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|solutionrelative:fullscaffold.sample01\\models\\services\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|c:\\users\\pc\\source\\repos\\multi-page\\fullscaffoldsolution\\fullscaffold.sample01\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6251BF4D-ECDE-4B5E-98CA-502117FD0DDE}|FullScaffold.Sample01\\FullScaffold.Sample01.csproj|solutionrelative:fullscaffold.sample01\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Models\\Frameworks\\Contracts\\IPersonRepository.cs",
-              "RelativeDocumentMoniker": "FullScaffold.Sample01\\Models\\Frameworks\\Contracts\\IPersonRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Models\\Frameworks\\Contracts\\IPersonRepository.cs*",
-              "RelativeToolTip": "FullScaffold.Sample01\\Models\\Frameworks\\Contracts\\IPersonRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:42:48.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Models\\Services\\PersonRepository.cs",
-              "RelativeDocumentMoniker": "FullScaffold.Sample01\\Models\\Services\\PersonRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Models\\Services\\PersonRepository.cs",
-              "RelativeToolTip": "FullScaffold.Sample01\\Models\\Services\\PersonRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwHQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:42:44.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "FullScaffold.Sample01\\Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Controllers\\PersonController.cs*",
-              "RelativeToolTip": "FullScaffold.Sample01\\Controllers\\PersonController.cs*",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwFIAAAAuAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "FullScaffold.Sample01\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T16:27:25.996Z",
+              "WhenOpened": "2025-01-20T16:44:25.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "FullScaffold.Sample01\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\Multi-page\\FullScaffoldSolution\\FullScaffold.Sample01\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "FullScaffold.Sample01\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-20T10:00:47.877Z",
               "EditorCaption": ""
             }
           ]
